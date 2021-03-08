@@ -1,0 +1,27 @@
+{
+  "name": "game-of-life",
+  "version": "0.0.1",
+  "description": "This code kata is based on [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extendi/game-of-life.git"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extendi/game-of-life/issues"
+  },
+  "homepage": "https://github.com/extendi/game-of-life#readme",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32"
+  }
+}
